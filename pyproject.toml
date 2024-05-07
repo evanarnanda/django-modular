@@ -1,0 +1,19 @@
+[project]
+name = "django_modular"
+version = "0.1.0"
+description = "Project belajar django yang modular"
+authors = [
+    {name = "evanarnanda", email = "evanarnanda@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
